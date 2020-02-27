@@ -1,0 +1,326 @@
+body {
+    background: linear-gradient(-45deg, #2d3239 100%, #22272d 100%);
+    background-color: -webkit-linear-gradient(-45deg, rgba(2, 0, 36, 1) 0%, rgba(34, 39, 45, 1) 100%);
+    font-family: Poppins;
+    font-style: italic;
+    font-weight: bolder;
+    position: relative;
+}
+
+.Wire {
+    width: .5%;
+    height: 0;
+    padding-bottom: 30%;
+    background-color: #e3edf7;
+    color: #e3edf7;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+        -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+    border: 1px solid rgba(0, 0, 0, 0.0);
+    border-radius: 1em;
+    margin-left: 85%;
+    margin-top: -55%;
+}
+
+.circle1 {
+    width: 100%;
+    height: 0;
+    background-color: #262b31;
+    padding-bottom: 100%;
+    border-radius: 50%;
+    
+    margin-left: -60%;
+    margin-Top: -50%;
+}
+
+.Obitors {
+    text-align: center;
+    float: left;
+    color: rgba(49, 69, 106, 0.08);
+    font-size: 700%;
+    margin-top: 50%;
+    margin-left: 50%;
+    font: 700% Arial, sans-serif;
+}
+
+
+.Obitors-Tastatur {
+    width: 90%;
+    height: 0px;
+    padding-bottom: 36%;
+    
+        background: rgba(46,51,58,1);
+background: -webkit-linear-gradient(-45deg, rgba(46,51,58,1) 0%, rgba(35,39,44,1) 100%);
+    
+    color: #e3edf7;
+    box-shadow: 2px 2px 8px -1px #000,
+        -3px -3px 3px -1px #545658;
+
+    border-radius: 30px;
+    margin: -1% auto;
+}
+
+.Alpha {
+    float: left;
+    width: 70%;
+}
+
+.Numeric {
+    float: left;
+    width: 24%;
+}
+
+.Button {
+
+    width: 5.5%;
+    height: 0px;
+    padding-bottom: 3%;
+    
+    
+    background: rgba(46,51,58,1);
+
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(46,51,58,1)), color-stop(100%, rgba(35,39,44,1)));
+background: -webkit-linear-gradient(-45deg, rgba(46,51,58,1) 0%, rgba(35,39,44,1) 100%);
+
+    
+    color: rgba(255,255,255, 0.5);
+    box-shadow: 2px 2px 2px -1px rgba(0, 0, 0, 0.2),
+        -2px -2px 2px -1px #545658;
+    
+    border-radius: 10px;
+    text-align: center;
+    float: left;
+    margin-left: 0.8%;
+    margin-bottom: 5px;
+    font-size: 60%;
+
+}
+
+.Function-keys {
+    width: 100%;
+    float: left;
+    margin-top: 9%;
+    margin-left: 3%;
+    line-height: 2;
+}
+
+
+.Number-keys {
+    width: 100%;
+    float: left;
+    margin-top: 2%;
+    margin-left: 3%;
+    line-height: 1.5;
+}
+
+
+.Row1-keys {
+    width: 100%;
+    float: left;
+    margin-top: 1%;
+    margin-left: 3%;
+}
+
+.Row2-keys {
+    width: 100%;
+    float: left;
+    margin-top: 1%;
+    margin-left: 3%;
+}
+
+.Row3-keys {
+    width: 100%;
+    float: left;
+    margin-top: 1%;
+    margin-left: 3%;
+}
+
+.Spl-keys {
+    width: 100%;
+    float: left;
+    margin-top: 1%;
+    margin-left: 3%;
+}
+
+.fun {
+    width: 5.5%;
+    height: 0px;
+    padding-bottom: 5.5%;
+    font-size: 80%;
+}
+
+.Num {
+    width: 5.5%;
+    height: 0px;
+    padding-bottom: 5.5%;
+    font-size: 80%;
+}
+
+.Row1 {
+    width: 5.5%;
+    height: 0px;
+    padding-bottom: 5.5%;
+    font-size: 80%;
+    line-height: 2.6;
+}
+
+.Row2 {
+    width: 5.5%;
+    height: 0px;
+    padding-bottom: 5.5%;
+    font-size: 80%;
+    line-height: 2.6;
+}
+
+.Row3 {
+    width: 5.5%;
+    height: 0px;
+    padding-bottom: 5.5%;
+    font-size: 80%;
+    line-height: 2.6;
+}
+
+.Spl {
+    width: 5.5%;
+    height: 0px;
+    padding-bottom: 5.5%;
+    font-size: 80%;
+    line-height: 2.6;
+}
+
+.Esc {
+    width: 7.1%;
+}
+
+.Del {
+    width: 7.1%;
+    color: #ff8080;
+}
+
+.qq {
+    width: 5%;
+}
+
+.Tab {
+    width: 6.1%;
+    text-align: left padding-left: 1%;
+}
+
+.Backspace {
+    width: 9.3%;
+    line-height: 2.5
+}
+
+.Two {
+    line-height: 1.5
+}
+
+.Caps {
+    width: 7.3%;
+    text-align: left;
+    padding-left: 1%
+}
+
+.Shift2 {
+    width: 15.5%;
+}
+
+.Shift2:hover {
+    width: 14.4%;
+    box-shadow: 4px 4px 8px -1px rgba(255, 255, 255, 0.8),
+        -4px -4px 8px -1px rgba(255, 255, 255, .8);
+    border: 1px solid rgba(0, 0, 0, 0.0);
+}
+
+.Button:active {
+    box-shadow: inset 2px 2px 3px -1px rgba(0, 0, 0, 0.3),
+        inset -2px -2px 3px -1px rgba(255, 255, 255, 1);
+    border: 1px solid rgba(0, 0, 0, 0.0);
+}
+
+.Pressed {
+    box-shadow: inset 2px 2px 3px -1px rgba(0, 0, 0, 0.3),
+        inset -2px -2px 3px -1px rgba(255, 255, 255, .3);
+    border: 1px solid rgba(0, 0, 0, 0.0);
+}
+
+
+.Ctrl {
+    width: 9.1%;
+}
+
+.Spacebar {
+    width: 38.1%;
+}
+
+.Mul {
+    width: 30%;
+    height: 0;
+    padding-bottom: 10%;
+    line-height: 2.2;
+    margin-left: 1.5%
+}
+
+.Touch {
+    width: 100%;
+    height: 0px;
+    padding-bottom: 100%;
+    background-color: #22252b;
+    box-shadow: inset 2px 2px 3px -1px rgba(0, 0, 0, 0.3),
+        inset -2px -2px 3px -1px rgba(255, 255, 255, .0);
+    border: 1px solid rgba(0, 0, 0, 0.0);
+    margin-left: 12%;
+    border-radius: 30px;
+    float: left
+}
+
+.Separator {
+    width: 2%;
+    height: 0px;
+    padding-bottom: 16%;
+    box-shadow: inset 4px 4px 4px -1px rgba(0, 0, 0, 0.3),
+        inset -2px -2px 3px -1px rgba(255, 255, 255, .3);
+    border: 1px solid rgba(0, 0, 0, 0.0);
+    margin-left: 49%;
+    margin-top: 78%;
+    border-radius: 10px;
+}
+
+.Company {
+    width: 100%;
+    color: rgba(255, 255, 255, 0.38);
+    text-align: center;
+    font: 15px Arial, sans-serif;
+    margin-top: 10%;
+    margin-left: 12%;
+}
+
+.Multimedia {
+    float: left;
+    width: 100%;
+    margin-top: 8%;
+    margin-bottom: 3%;
+    margin-left: 13%
+}
+
+.Top {
+    width: 5.7%;
+    line-height: 1.5;
+    border-bottom: 2px;
+    border-bottom-color: #eee;
+}
+
+.Hash {
+    width: 8%;
+    line-height: 1.5;
+
+}
+
+.Enter {
+    width: 12.5%;
+}
+
+.Star {
+    line-height: 1.5;
+}
+
+When you have no photoshop on your Office PC Front end using Notepad 4 hours of continous Coding Fully Responsive Grab it here Github
